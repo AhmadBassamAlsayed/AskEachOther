@@ -15,3 +15,5 @@ this is a console app where you can register or sign in as a user and after that
   <li> you also can see your inbox</li>
   <li> and you can select any question to see its qupquestions if there ware some</li>
 </ul>
+## Notes:
+this project is writen in python so you need to install it and i used sqlite for database give some attention for that and you need to use the all files here.
