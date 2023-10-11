@@ -4,18 +4,6 @@ import DataSetFirst as first
 conn=sql.connect('database.db')
 c=conn.cursor()
                     
-# make MakeAnswer()????
-# Change the makequestion to make supquistions to??
-# fix DeleteAccount+
-# make OutBox()+
-
-# check:
-# 1-feed()+
-# 2-Inbox()+
-# 3-MakeQuestions()
-# len
-# c.fetchall
-# None
 def UI(user):
     print(f'Hi there {user.FullName} how are you')
     print('what do you want to see:')
@@ -553,6 +541,7 @@ def PrintSupQuestion(supques):
 
 def PrintUser(user):
     print(f'User fullname: {user.FullName}')
+    print(f'User username: {user.USerName}')
     print(f'User ID: {user.ID}',end="\n___________________________________________________\n")
 
 def EndUsers(user):
