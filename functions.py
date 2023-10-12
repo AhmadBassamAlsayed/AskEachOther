@@ -541,7 +541,7 @@ def PrintSupQuestion(supques):
 
 def PrintUser(user):
     print(f'User fullname: {user.FullName}')
-    print(f'User username: {user.USerName}')
+    print(f'User username: {user.UserName}')
     print(f'User ID: {user.ID}',end="\n___________________________________________________\n")
 
 def EndUsers(user):
